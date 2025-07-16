@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Pendaftaran PPDB | SMAN 14 Gowa</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 15px 0;
+    }
+
+    .header-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .logo h1 {
+      font-size: 22px;
+      margin: 0;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-links li a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #003366;
+      color: white;
+    }
+
+    .edit-btn, .delete-btn {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .edit-btn {
+      background-color: #ffc107;
+      color: #000;
+    }
+
+    .delete-btn {
+      background-color: #dc3545;
+      color: #fff;
+    }
+
+    .edit-btn:hover {
+      background-color: #e0a800;
+    }
+
+    .delete-btn:hover {
+      background-color: #c82333;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+
+    .social {
+      margin-bottom: 10px;
+    }
+
+    .social a {
+      color: white;
+      margin: 0 10px;
+      font-size: 18px;
+    }
+
+    .social a:hover {
+      color: #ffcc00;
+    }
+
+    footer p {
+      margin: 5px 0 0;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="img/logo_sma.png" alt="Logo SMA 14 Gowa">
+        <h1>SMAN 14 GOWA</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="guru.html">Guru & Staf</a></li>
+          <li><a href="visimisi.html#visi-misi">Tentang Kami</a></li>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="organisasi.html">Organisasi</a></li>
+          <li><a href="ppdb.html">SPMB</a></li>
+          <li><a href="index.html#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Tabel Data -->
+  <div class="container">
+    <h2>Data Pendaftaran PPDB</h2>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>NISN</th>
+          <th>Tempat Lahir</th>
+          <th>Tanggal Lahir</th>
+          <th>Asal Sekolah</th>
+          <th>Alamat</th>
+          <th>Jalur</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data akan ditambahkan dengan JavaScript -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>&copy; 2025 <strong>SMAN 14 Gowa</strong>. All rights reserved.</p>
+    <p>created by <a href="biodata.html#biodata"> NURANNISASYAM</a>. | &copy; 2025</p>
+  </footer>
+   <div class="container">
+        <a href="https://www.instagram.com/ncsychaa?igsh=MXFkbGJyY2RhbGNrbQ=="></a>
+      </div>
+
+  <!-- Script -->
+  <script>
+    function loadData() {
+      const dataTable = document.querySelector("#dataTable tbody");
+      dataTable.innerHTML = "";
+      const data = JSON.parse(localStorage.getItem("ppdbData")) || [];
+
+      data.forEach((item, index) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${item.nama}</td>
+          <td>${item.nisn}</td>
+          <td>${item.tempat_lahir}</td>
+          <td>${item.tanggal_lahir}</td>
+          <td>${item.asal_sekolah}</td>
+          <td>${item.alamat}</td>
+          <td>${item.jalur}</td>
+          <td>
+            <button class="edit-btn" data-index="${index}">Edit</button>
+            <button class="delete-btn" data-index="${index}">Hapus</button>
+          </td>
+        `;
+        dataTable.appendChild(row);
+      });
+
+      document.querySelectorAll(".delete-btn").forEach(button => {
+        button.addEventListener("click", () => {
+          const index = button.getAttribute("data-index");
+          deleteData(index);
+        });
+      });
+
+      document.querySelectorAll(".edit-btn").forEach(button => {
+        button.addEventListener("click", () => {
+          const index = button.getAttribute("data-index");
+          loadEditData(index);
+        });
+      });
+    }
+
+    function deleteData(index) {
+      const data = JSON.parse(localStorage.getItem("ppdbData")) || [];
+      data.splice(index, 1);
+      localStorage.setItem("ppdbData", JSON.stringify(data));
+      loadData();
+    }
+
+    function loadEditData(index) {
+      const data = JSON.parse(localStorage.getItem("ppdbData")) || [];
+      const item = data[index];
+      alert(`Mengedit data: ${item.nama}`);
+      // Implementasi form edit bisa ditambahkan di sini
+    }
+
+    window.addEventListener("load", loadData);
+  </script>
+
+</body>
+</html>

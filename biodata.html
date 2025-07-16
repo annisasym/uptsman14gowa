@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Diri</title>
+  <style>
+    /* Menggunakan warna khas SMAN 14 Gowa */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Background video */
+    .background-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* Style untuk container konten */
+    .container {
+      background-color: rgba(255, 255, 255, 0.8); /* Transparan agar bisa melihat video sedikit */
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      width: 90%;
+      max-width: 800px;
+      margin: auto;
+      z-index: 1;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0077b6; /* Biru tua SMAN 14 Gowa */
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    hr {
+      border: 1px solid #b0c4de; /* Biru muda */
+      margin-bottom: 20px;
+    }
+
+    .profile-info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    table {
+      width: 60%;
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+
+    td:first-child {
+      font-weight: bold;
+      color: #0077b6; /* Biru tua */
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 210px;
+      border-radius: 8px;
+      object-fit: cover;
+      border: 3px solid #0077b6; /* Border biru SMAN 14 Gowa */
+    }
+
+    .btn-back {
+      display: block;
+      margin: 30px auto;
+      padding: 12px 24px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-back:hover {
+      background-color: #005f87; /* Biru lebih gelap untuk hover */
+    }
+
+    @media (max-width: 600px) {
+      .profile-info {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      .profile-img {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Video Background -->
+  <video class="background-video" autoplay muted loop>
+    <source src="img/1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="container">
+    <h1>Biodata Diri</h1>
+    <hr>
+
+    <div class="profile-info">
+      <table>
+        <tr><td>Nama</td><td>: NUR ANNISA SYAM</td></tr>
+        <tr><td>NISN</td><td>: 0084393378</td></tr>
+        <tr><td>Tanggal Lahir</td><td>: 16 November 2008</td></tr>
+        <tr><td>Jenis Kelamin</td><td>: Perempuan</td></tr>
+        <tr><td>Alamat</td><td>: Jl. Abdul Rasyid Dg Lurang II, Kasomberang</td></tr>
+        <tr><td>Nomor Telepon</td><td>: 081808960696</td></tr>
+        <tr><td>Email</td><td>: nisaasyamm@gmail.com</td></tr>
+      </table>
+      <img class="profile-img" src="img/NUR ANNISA SYAM SMAN 14 GOWA.jpeg" alt="Foto Profil">
+    </div>
+
+    <a href="index.html" class="btn-back">Kembali ke Beranda</a>
+  </div>
+
+</body>
+</html>

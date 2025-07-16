@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organisasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo" style="display: flex; align-items: center;">
+        <img src="img/logo_sma.png" alt="Logo SMA 14 Gowa">
+        <h1>SMAN 14 GOWA</h1>
+      </div>
+      <nav class="navbar">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="nav-links">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="guru.html">Guru & staf</a></li>
+          <li><a href="visimisi.html#visi-misi">Tentang Kami</a></li>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="organisasi.html">Organisasi</a></li>
+           <li><a href="ppdb.html">SPMB</a></li>
+          <li><a href="index.html#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- organisasi -->
+ <section id="organisasi" class="organisasi-section">
+  <div class="organisasi-header">
+    <h2>Organisasi & Ekstrakurikuler</h2>
+    <p>Berikut adalah dokumentasi berbagai kegiatan dari organisasi dan ekstrakurikuler aktif di SMAN 14 Gowa.</p>
+  </div>
+
+  <div class="organisasi-grid">
+
+    <!-- PMR -->
+    <div class="organisasi-card">
+      <h3>PMR WIRA SMAN 14 GOWA</h3>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1, 'pmr')">&#10094;</button>
+        <div class="carousel-images" id="pmr">
+          <img src="img/musyawarah pmr.jpeg" alt="PMR 1" class="carousel-image">
+          <img src="img/pmr.jpeg" alt="PMR 2" class="carousel-image">
+          <img src="img/latihan pmr.jpeg" alt="PMR 3" class="carousel-image">
+          <img src="img/diksar pmr.jpeg" alt="PMR 4" class="carousel-image">
+          <img src="img/pengukuhan pmr.jpeg" alt="PMR 5" class="carousel-image">
+        </div>
+        <button class="next" onclick="moveSlide(1, 'pmr')">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- OSIS -->
+    <div class="organisasi-card">
+      <h3>OSIS</h3>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1, 'osis')">&#10094;</button>
+        <div class="carousel-images" id="osis">
+          <img src="img/osis 1.jpeg" alt="OSIS 1" class="carousel-image">
+          <img src="img/osis 2.jpeg" alt="OSIS 2" class="carousel-image">
+          <img src="img/osis 3.jpeg" alt="OSIS 3" class="carousel-image">
+          <img src="img/osis 4.jpeg" alt="OSIS 4" class="carousel-image">
+          <img src="img/osis 5.jpeg" alt="OSIS 5" class="carousel-image">
+        </div>
+        <button class="next" onclick="moveSlide(1, 'osis')">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- ROHIS -->
+    <div class="organisasi-card">
+      <h3>ROHIS</h3>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1, 'rohis')">&#10094;</button>
+        <div class="carousel-images" id="rohis">
+          <img src="img/rohis 1.jpeg" alt="ROHIS 1" class="carousel-image">
+          <img src="img/rohis 2.jpeg" alt="ROHIS 2" class="carousel-image">
+          <img src="img/rohis 3.jpeg" alt="ROHIS 3" class="carousel-image">
+          <img src="img/rohis 4.jpeg" alt="ROHIS 4" class="carousel-image">
+          <img src="img/rohis 5.jpeg" alt="ROHIS 5" class="carousel-image">
+        </div>
+        <button class="next" onclick="moveSlide(1, 'rohis')">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- Pandu Digital -->
+    <div class="organisasi-card">
+      <h3>Pandu Digital</h3>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1, 'pandudigital')">&#10094;</button>
+        <div class="carousel-images" id="pandudigital">
+          <img src="img/pandu digital 2.jpeg" alt="Pandu Digital 1" class="carousel-image">
+          <img src="img/pandu digital 3.jpeg" alt="Pandu Digital 2" class="carousel-image">
+          <img src="img/pandu digital 4.jpeg" alt="Pandu Digital 3" class="carousel-image">
+          <img src="img/pandu digital 5.jpeg" alt="Pandu Digital 4" class="carousel-image">
+          <img src="img/pndu digital 1.jpeg" alt="Pandu Digital 5" class="carousel-image">
+        </div>
+        <button class="next" onclick="moveSlide(1, 'pandudigital')">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- Paskibra -->
+    <div class="organisasi-card">
+      <h3>Fourteen of Paskibra</h3>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1, 'paskibra')">&#10094;</button>
+        <div class="carousel-images" id="paskibra">
+          <img src="img/paskib 1.jpeg" alt="Paskibra 1" class="carousel-image">
+          <img src="img/paskib 2.jpeg" alt="Paskibra 2" class="carousel-image">
+          <img src="img/paskib 3.jpeg" alt="Paskibra 3" class="carousel-image">
+          <img src="img/paskib 4.jpeg" alt="Paskibra 4" class="carousel-image">
+          <img src="img/paskib 5.jpeg" alt="Paskibra 5" class="carousel-image">
+        </div>
+        <button class="next" onclick="moveSlide(1, 'paskibra')">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- Futsal -->
+    <div class="organisasi-card">
+      <h3>Futsal Vierzhen</h3>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1, 'futsal')">&#10094;</button>
+        <div class="carousel-images" id="futsal">
+          <img src="img/futsal 1.jpeg" alt="Futsal 1" class="carousel-image">
+          <img src="img/futsal 2.jpeg" alt="Futsal 2" class="carousel-image">
+          <img src="img/futsal 3.jpeg" alt="Futsal 3" class="carousel-image">
+          <img src="img/futsal 4.jpeg" alt="Futsal 4" class="carousel-image">
+          <img src="img/futsal 5.jpeg" alt="Futsal 5" class="carousel-image">
+        </div>
+        <button class="next" onclick="moveSlide(1, 'futsal')">&#10095;</button>
+      </div>
+    </div>
+
+     <!-- Pramuka -->
+    <div class="organisasi-card">
+      <h3>Pramuka</h3>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1, 'Pramuka')">&#10094;</button>
+        <div class="carousel-images" id="Pramuka">
+          <img src="img/p1.jpg" alt="Pramuka 1" class="carousel-image">
+          <img src="img/p2.jpg" alt="Pramuka 2" class="carousel-image">
+          <img src="img/p3.jpg" alt="Pramuka 3" class="carousel-image">
+          <img src="img/p5.jpeg" alt="Pramuka 4" class="carousel-image">
+          <img src="img/p4.jpg" alt="Pramuka 5" class="carousel-image">
+        </div>
+        <button class="next" onclick="moveSlide(1, 'Pramuka')">&#10095;</button>
+      </div>
+    </div>
+
+     <!-- Sispala -->
+    <div class="organisasi-card">
+      <h3>Sispala</h3>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1, 'Sispala')">&#10094;</button>
+        <div class="carousel-images" id="Sispala">
+          <img src="img/s1.jpg" alt="Sispala 1" class="carousel-image">
+          <img src="img/s2.jpg" alt="Sispala2" class="carousel-image">
+          <img src="img/s3.jpg" alt="Sispala 3" class="carousel-image">
+          <img src="img/s5.jpeg" alt="Sispala 4" class="carousel-image">
+          <img src="img/s4.jpg" alt="Sispala 5" class="carousel-image">
+        </div>
+        <button class="next" onclick="moveSlide(1, 'Sispala')">&#10095;</button>
+      </div>
+    </div>
+
+    
+
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>created by <a href="biodata.html#biodata">NURANNISASYAM</a>. | &copy; 2025</p>
+        </div>
+    </footer>
+
+
+ <!-- Script JS -->
+  <script src="js.js"></script> <!-- Memanggil script.js di bawah body -->
+</body>
+
+</script>
+</html>
+
+
